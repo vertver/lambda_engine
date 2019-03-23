@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{cab30ca0-299c-46ca-b8f1-b2c6e0efb8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Win32">
+      <UniqueIdentifier>{965048c5-a7dd-4737-a30c-84f739bb715e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Math">
+      <UniqueIdentifier>{f7afeb56-98eb-46f0-99fd-b3d5846f408c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Win32_APIs.h">
+      <Filter>source\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_FS.h">
+      <Filter>source\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Processes.h">
+      <Filter>source\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Steam.h">
+      <Filter>source\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_Threads.h">
+      <Filter>source\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleObjectInterface.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="head.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="System_API.h" />
+    <ClInclude Include="Vector4.h">
+      <Filter>source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MathTypes.h">
+      <Filter>source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="LVectors.h">
+      <Filter>source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>source\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Win32_kernel.cpp">
+      <Filter>source\Win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
